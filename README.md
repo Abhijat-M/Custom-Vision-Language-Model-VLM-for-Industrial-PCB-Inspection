@@ -1,5 +1,5 @@
 
-# Task 3: Custom Vision–Language Model (VLM) for Industrial PCB Inspection
+# Custom Vision–Language Model (VLM) for Industrial PCB Inspection
 
 ## Overview
 
