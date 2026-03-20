@@ -48,11 +48,34 @@ Traditional Automated Optical Inspection (AOI) systems detect defects but lack i
 | VLM (LoRA) | Confidence Calibration | 0.947 |
 | VLM (LoRA) | Query Response Time | ~3–4s |
 
+## Dataset
+
+The dataset is included in this repository under `data/` (images tracked via [Git LFS](https://git-lfs.github.com/)).
+
+```
+data/
+├── images/           # 900 training PCB images (640x640)
+├── annotations/      # 900 Pascal VOC XML annotations
+├── valid/
+│   ├── images/       # 300 validation PCB images
+│   └── annotations/  # 300 validation annotations
+├── train_qa.json     # Generated QA pairs for VLM training (full)
+├── train_qa_small.json
+├── val_qa.json       # Validation QA pairs
+└── val_qa_small.json
+```
+
+**Total:** 1,200 annotated PCB images across 6 defect classes (~49 MB via LFS).
+
+> **Note:** You need [Git LFS](https://git-lfs.github.com/) installed to clone the images. Run `git lfs install` before cloning.
+
 ## Quick Start
 
 ### 1. Install
 
 ```bash
+# Git LFS is required for the dataset images
+git lfs install
 git clone https://github.com/Abhijat-M/Custom-Vision-Language-Model-VLM-for-Industrial-PCB-Inspection.git
 cd Custom-Vision-Language-Model-VLM-for-Industrial-PCB-Inspection
 pip install -r requirements.txt
@@ -61,17 +84,21 @@ pip install -r requirements.txt
 ### 2. Train Detector
 
 ```bash
-python -m src.train --data-dir /path/to/pcb/data --epochs 50
+# Uses included dataset by default (data/ directory)
+python -m src.train --epochs 50
+
+# Or specify a custom data directory
+python -m src.train --data-dir /path/to/custom/data --epochs 50
 ```
 
 ### 3. Fine-tune VLM
 
 ```bash
-# Generate QA pairs from annotations
-python -m src.vlm.generate_qa --data-dir /path/to/pcb/data --output data/qa_pairs.json
+# Generate QA pairs from annotations (pre-generated pairs are included in data/)
+python -m src.vlm.generate_qa --output data/qa_pairs.json
 
 # Fine-tune Qwen2-VL with LoRA
-python -m src.vlm.finetune --qa-json data/qa_pairs.json --data-dir /path/to/pcb/data --epochs 3
+python -m src.vlm.finetune --qa-json data/train_qa.json --epochs 3
 ```
 
 ### 4. Run API Server
@@ -117,25 +144,31 @@ docker-compose up --build
 
 ```
 pcb-vlm-inspection/
+├── data/                       # PCB dataset (Git LFS)
+│   ├── images/                 # 900 training images
+│   ├── annotations/            # 900 Pascal VOC XMLs
+│   ├── valid/                  # 300 validation images + annotations
+│   ├── train_qa.json           # VLM training QA pairs
+│   └── val_qa.json             # VLM validation QA pairs
 ├── src/
-│   ├── config.py           # Central configuration
-│   ├── dataset.py          # PCB dataset with augmentation
-│   ├── model.py            # ResNet-50 FPN Faster R-CNN
-│   ├── train.py            # Training with early stopping
-│   ├── detect.py           # Detection + visualization
-│   ├── evaluate.py         # mAP evaluation
-│   ├── export_onnx.py      # ONNX + TorchScript export
-│   ├── api.py              # FastAPI production server
+│   ├── config.py               # Central configuration
+│   ├── dataset.py              # PCB dataset with augmentation
+│   ├── model.py                # ResNet-50 FPN Faster R-CNN
+│   ├── train.py                # Training with early stopping
+│   ├── detect.py               # Detection + visualization
+│   ├── evaluate.py             # mAP evaluation
+│   ├── export_onnx.py          # ONNX + TorchScript export
+│   ├── api.py                  # FastAPI production server
 │   └── vlm/
-│       ├── generate_qa.py  # Synthetic QA generation
-│       ├── dataset.py      # VLM training dataset
-│       ├── finetune.py     # LoRA fine-tuning
-│       └── inference.py    # NL query interface
+│       ├── generate_qa.py      # Synthetic QA generation
+│       ├── dataset.py          # VLM training dataset
+│       ├── finetune.py         # LoRA fine-tuning
+│       └── inference.py        # NL query interface
 ├── tests/
-│   └── test_api.py         # Unit + integration tests
+│   └── test_api.py             # Unit + integration tests
 ├── scripts/
-│   ├── run_api.py          # API launcher
-│   └── test_api_client.py  # Smoke test client
+│   ├── run_api.py              # API launcher
+│   └── test_api_client.py      # Smoke test client
 ├── Dockerfile
 ├── docker-compose.yml
 ├── requirements.txt
