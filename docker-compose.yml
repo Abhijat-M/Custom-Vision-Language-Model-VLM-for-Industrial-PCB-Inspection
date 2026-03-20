@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  pcb-inspector:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./checkpoints:/app/checkpoints:ro
+    environment:
+      - DETECTOR_CHECKPOINT=/app/checkpoints/best_model.pth
+      - VLM_ADAPTER_PATH=/app/checkpoints/vlm/lora_adapter
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
