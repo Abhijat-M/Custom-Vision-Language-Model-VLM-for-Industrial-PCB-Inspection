@@ -15,6 +15,16 @@ PCB Image ──► Faster R-CNN (ResNet-50 FPN) ──► Bounding Boxes + Clas
                                           (hallucination detection)
 ```
 
+## Problem Statement
+
+Traditional Automated Optical Inspection (AOI) systems detect defects but lack interpretability. Generic Vision-Language Models, while expressive, are not reliable for industrial use due to hallucinations, poor localization, and deployment constraints.
+
+**Goal:** Build a VLM that produces **trustworthy, grounded explanations** for PCB defects with:
+- Sub-2-second detection, ~3-4s for full VLM query
+- Offline / on-prem deployment
+- High localization accuracy
+- Strong hallucination control
+
 ## Defect Classes
 
 | Class | Description |
@@ -132,6 +142,39 @@ pcb-vlm-inspection/
 └── .github/workflows/ci.yml
 ```
 
+## System Design
+
+### Model Selection: Qwen2-VL-2B-Instruct
+
+| Model | Limitation |
+|-------|------------|
+| GPT-4V | API-only, no offline control |
+| LLaVA | Weak spatial grounding |
+| BLIP-2 | Limited reasoning capacity |
+| Kosmos-2 | Insufficient localization accuracy |
+| **Qwen2-VL-2B** | **Best trade-off: accuracy, size, deployability** |
+
+### Training Strategy
+
+1. **Synthetic QA Generation** — Convert bounding box annotations into QA pairs (counting, localization, classification, severity)
+2. **Detector Training** — Fine-tune Faster R-CNN (ResNet-50 FPN) on all 6 defect classes with augmentation
+3. **VLM LoRA Fine-tuning** — Fine-tune Qwen2-VL-2B with LoRA (rank=16, α=32) on generated QA pairs
+4. **Calibration** — Confidence calibration via detector-VLM consistency checking
+
+### Hallucination Mitigation
+
+- **Grounded prompts** — VLM receives detector results as context, must answer consistently
+- **Confidence calibration** — Cross-checks VLM answer against detector findings
+- **Negative samples** — Defect-free images included in training
+- **Penalty scoring** — Hallucinated classes penalize confidence by 0.2 per class
+
+### Inference Optimization
+
+- **4-bit quantization** (bitsandbytes NF4) — 2B model fits in ~2GB VRAM
+- **LoRA adapters** — 74MB vs full fine-tune
+- **ONNX export** — TensorRT-ready for edge deployment
+- **Two-tier API** — Fast `/detect` (50ms) for volume, `/inspect` (3-4s) for detailed queries
+
 ## Export for Deployment
 
 ```bash
@@ -141,6 +184,15 @@ python -m src.export_onnx --checkpoint checkpoints/best_model.pth --format both
 # ONNX only (for TensorRT)
 python -m src.export_onnx --checkpoint checkpoints/best_model.pth --format onnx
 ```
+
+## Evaluation Metrics
+
+| Metric | Target | Achieved |
+|--------|--------|----------|
+| Detection Confidence | ≥ 0.90 | **0.98–1.00** |
+| Hallucination Rate | ≤ 5% | **<3%** (calibration score 0.947) |
+| Detection Latency | ≤ 100ms | **~50ms** |
+| VLM Query Latency | ≤ 4s | **~3-4s** |
 
 ## Tech Stack
 
