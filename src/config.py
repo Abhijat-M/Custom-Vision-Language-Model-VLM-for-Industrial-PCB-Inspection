@@ -12,7 +12,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 @dataclass
 class Paths:
-    data_dir: str = os.path.join("C:/Users/Wizard/Documents/quality_inspection", "data")
+    data_dir: str = os.path.join(BASE_DIR, "data")
     train_dir: str = ""
     valid_dir: str = ""
     checkpoint_dir: str = os.path.join(BASE_DIR, "checkpoints")

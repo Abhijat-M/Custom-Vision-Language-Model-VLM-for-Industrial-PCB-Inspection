@@ -1,0 +1,502 @@
+[
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100049_test_jpg.rf.62a2fd2186eeaafd628cf5c92a2fb9c1.jpg",
+    "question": "Count the total number of defects on this board.",
+    "answer": "There are 6 defects in total: 1 open, 1 mousebite, 1 spur, 1 copper, 1 pin-hole, 1 short."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000019_test_jpg.rf.a3263b76c0218bafa24d89e6961a8db4.jpg",
+    "question": "Are there any pin-hole defects in the copper?",
+    "answer": "Yes, there is 1 pin-hole defect located at: center-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000037_test_jpg.rf.e1c38074dc8bec6c50ec0fa4b9a22e4a.jpg",
+    "question": "Are there any voids or pinholes in the traces?",
+    "answer": "Yes, there is 1 pin-hole defect located at: bottom-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\20085095_test_jpg.rf.ab555186c329aab53db03c2cb806d2c4.jpg",
+    "question": "Are there any remaining copper spots that shouldn't be there?",
+    "answer": "Yes, there are 2 copper defects located at: top-center, bottom-right."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100052_test_jpg.rf.e7acfb06979493f123b251eb2dbcad5e.jpg",
+    "question": "Describe the defects detected in this board image.",
+    "answer": "This PCB has 6 defects: 1 open defect, 2 short defects, 2 spur defects, 1 pin-hole defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100016_test_jpg.rf.147426d4e6d04123cc071f44f45707f3.jpg",
+    "question": "Count the total number of defects on this board.",
+    "answer": "There are 9 defects in total: 3 open, 2 short, 1 mousebite, 1 spur, 1 copper, 1 pin-hole."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\44000061_test_jpg.rf.32c19cdfe5152a07605d1276fa3c8c0b.jpg",
+    "question": "Are there any bridging defects on the board?",
+    "answer": "Yes, there is 1 short defect located at: center-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100000_test_jpg.rf.e41bbfe74def37bec383a2e90f8d0e9a.jpg",
+    "question": "Are there any partial trace etching defects?",
+    "answer": "Yes, there are 2 mousebite defects located at: center-center, top-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000041_test_jpg.rf.7d057811f849f529933b9c8691060423.jpg",
+    "question": "Count the total number of defects on this board.",
+    "answer": "There are 5 defects in total: 1 open, 1 short, 1 spur, 1 copper, 1 pin-hole."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\50600016_test_jpg.rf.5b5df46cd73eab90b1cd5972b041c0c0.jpg",
+    "question": "Are there any open circuit defects?",
+    "answer": "Yes, there is 1 open defect located at: center-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000102_test_jpg.rf.29f5a8fc2a64963a753316c06d7846a8.jpg",
+    "question": "How many quality issues are present?",
+    "answer": "There are 5 defects in total: 1 open, 1 short, 2 mousebite, 1 spur."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\20085255_test_jpg.rf.6599593238e52ffd72f160477d5e8f55.jpg",
+    "question": "Are there any spurious copper extensions?",
+    "answer": "Yes, there is 1 spur defect located at: bottom-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000099_test_jpg.rf.b01aaebcd1d552c04c52f8da3abd3c36.jpg",
+    "question": "Can you see any unwanted copper protrusions?",
+    "answer": "Yes, there are 2 spur defects located at: center-left, bottom-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100061_test_jpg.rf.2d11f34239999c031555fab2715abe8d.jpg",
+    "question": "How many defects are in this PCB image?",
+    "answer": "There are 6 defects in total: 2 open, 2 mousebite, 1 pin-hole, 1 copper."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\13000053_test_jpg.rf.0e21d031222a0e2151802effd3020f3a.jpg",
+    "question": "Are there any excess copper defects?",
+    "answer": "Yes, there is 1 copper defect located at: center-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000048_test_jpg.rf.99b7777720d6b93989bc9a2d1902b487.jpg",
+    "question": "Count the total number of defects on this board.",
+    "answer": "There are 4 defects in total: 1 open, 2 spur, 1 pin-hole."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000059_test_jpg.rf.7bca19e4d6ce4e26322967765cf43d34.jpg",
+    "question": "Are there any mousebite defects?",
+    "answer": "Yes, there is 1 mousebite defect located at: center-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\20085197_test_jpg.rf.49ae2309a5f065b45a4235a235da50d8.jpg",
+    "question": "Are there any short circuit defects?",
+    "answer": "Yes, there is 1 short defect located at: top-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000077_test_jpg.rf.c48e3f2c2ebf28a2f2824c38c916d232.jpg",
+    "question": "Are there any excess copper defects?",
+    "answer": "Yes, there is 1 copper defect located at: bottom-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000071_test_jpg.rf.c96c17216d8060b0822342bd83ccb9c3.jpg",
+    "question": "Can you identify any copper residue issues?",
+    "answer": "Yes, there is 1 copper defect located at: top-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000015_test_jpg.rf.323c3792c91343a41b7b540a969547f9.jpg",
+    "question": "Are there any short circuit defects?",
+    "answer": "Yes, there is 1 short defect located at: center-right."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\77000104_test_jpg.rf.1d61beb99db6e0d78923689139628621.jpg",
+    "question": "Describe the defects detected in this board image.",
+    "answer": "This PCB has 4 defects: 2 mousebite defects, 1 copper defect, 1 pin-hole defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000086_test_jpg.rf.ca9e48938c8779a7c1628f15d0a5f487.jpg",
+    "question": "Are there any spur defects on the traces?",
+    "answer": "Yes, there is 1 spur defect located at: center-right."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000085_test_jpg.rf.94f1cc137f997ce7dc8fbbeb33b57d2e.jpg",
+    "question": "Count the total number of defects on this board.",
+    "answer": "There are 4 defects in total: 1 open, 1 short, 2 mousebite."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\12100189_test_jpg.rf.0ff46e544726a78bb4f31c01ba053f0e.jpg",
+    "question": "Describe the defects detected in this board image.",
+    "answer": "This PCB has 8 defects: 1 open defect, 1 short defect, 2 mousebite defects, 1 spur defect, 2 copper defects, 1 pin-hole defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\13000183_test_jpg.rf.67a4335215e477dd9610772caf52a5a5.jpg",
+    "question": "What defects are present in this PCB image?",
+    "answer": "This PCB has 7 defects: 1 open defect, 2 mousebite defects, 1 spur defect, 2 copper defects, 1 pin-hole defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\12100179_test_jpg.rf.d86c08f4f6cb4d3c23f65f39bb727f35.jpg",
+    "question": "How many defects are in this PCB image?",
+    "answer": "There are 7 defects in total: 1 open, 2 short, 1 spur, 1 copper, 1 pin-hole, 1 mousebite."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100038_test_jpg.rf.b913235cb4791966336f5bc71e802a08.jpg",
+    "question": "List the defects found on this PCB.",
+    "answer": "This PCB has 5 defects: 1 open defect, 1 short defect, 1 mousebite defect, 1 copper defect, 1 pin-hole defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\00041006_test_jpg.rf.612e798d3949ac4f3d8d73c32ee04a09.jpg",
+    "question": "Are there any spurious copper extensions?",
+    "answer": "Yes, there are 3 spur defects located at: bottom-center, center-left, center-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100030_test_jpg.rf.abb194595cc1cb905a6929b776ed59e6.jpg",
+    "question": "Can you identify broken traces on this PCB?",
+    "answer": "Yes, there are 2 open defects located at: center-left, top-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100053_test_jpg.rf.575c3e79333f78f3a0cca5a57d12adc3.jpg",
+    "question": "Identify all defects visible in this circuit board.",
+    "answer": "This PCB has 8 defects: 2 open defects, 2 short defects, 1 mousebite defect, 1 spur defect, 1 copper defect, 1 pin-hole defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000024_test_jpg.rf.d14f9f90e2f47f5fcbdd1d73078cfaa9.jpg",
+    "question": "Can you see any unwanted copper protrusions?",
+    "answer": "Yes, there is 1 spur defect located at: center-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000014_test_jpg.rf.4c50966444d9189316d9421f4b9d8326.jpg",
+    "question": "Can you see any unwanted copper protrusions?",
+    "answer": "Yes, there are 2 spur defects located at: top-left, center-right."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\20085144_test_jpg.rf.461b4d908705d47444fb06e83346078c.jpg",
+    "question": "Count the total number of defects on this board.",
+    "answer": "There are 5 defects in total: 1 open, 1 short, 1 mousebite, 1 spur, 1 pin-hole."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\12300238_test_jpg.rf.8be446cf57c2cf07cb6fb387fae17017.jpg",
+    "question": "Can you identify any copper residue issues?",
+    "answer": "Yes, there are 2 copper defects located at: center-right, center-right."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\77000098_test_jpg.rf.0dbe5926d762a2358a0dc54f627f0f3e.jpg",
+    "question": "What quality issues can you see in this PCB?",
+    "answer": "This PCB has 5 defects: 1 open defect, 1 short defect, 2 mousebite defects, 1 pin-hole defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000094_test_jpg.rf.21b5e25be88efd535f4ac85e64498598.jpg",
+    "question": "Can you see any unintended connections between traces?",
+    "answer": "Yes, there is 1 short defect located at: center-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000103_test_jpg.rf.4d9e53dafe49c71e6e426988446450ee.jpg",
+    "question": "Can you identify broken traces on this PCB?",
+    "answer": "Yes, there is 1 open defect located at: top-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000028_test_jpg.rf.55b365a131b395b75d274b367f6acef9.jpg",
+    "question": "Are there any spurious copper extensions?",
+    "answer": "Yes, there are 2 spur defects located at: top-left, bottom-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000040_test_jpg.rf.25052cf11b1f9753e1b2c012aa5f37ed.jpg",
+    "question": "How many defects are in this PCB image?",
+    "answer": "There are 6 defects in total: 2 open, 1 short, 1 spur, 1 pin-hole, 1 copper."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100069_test_jpg.rf.aad0bb2fa51d75596a07b191db3ac79f.jpg",
+    "question": "Can you identify any copper residue issues?",
+    "answer": "Yes, there is 1 copper defect located at: center-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\50600009_test_jpg.rf.da4acfecff9667acf08715caff6974be.jpg",
+    "question": "Are there any open circuit defects?",
+    "answer": "Yes, there is 1 open defect located at: top-right."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\12300066_test_jpg.rf.34c3c2dd8eb27cc001efbfa509cac6f5.jpg",
+    "question": "What quality issues can you see in this PCB?",
+    "answer": "This PCB has 5 defects: 1 open defect, 1 short defect, 1 mousebite defect, 1 copper defect, 1 pin-hole defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000007_test_jpg.rf.a76689909396ab73c0cead6163250f1f.jpg",
+    "question": "Can you identify any copper residue issues?",
+    "answer": "Yes, there is 1 copper defect located at: bottom-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\00041192_test_jpg.rf.40c7543c7b1140a75d6d529a2d2b51b9.jpg",
+    "question": "Count the total number of defects on this board.",
+    "answer": "There are 7 defects in total: 1 open, 3 mousebite, 1 spur, 1 copper, 1 pin-hole."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\12100036_test_jpg.rf.4a3401d28a4e976920f912d78d0dade6.jpg",
+    "question": "Can you see any unwanted copper protrusions?",
+    "answer": "Yes, there is 1 spur defect located at: center-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\77000095_test_jpg.rf.9dcda74b05985959dc38f92bcd7e67d4.jpg",
+    "question": "Count the total number of defects on this board.",
+    "answer": "There are 6 defects in total: 1 open, 1 short, 1 mousebite, 1 spur, 1 pin-hole, 1 copper."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\44000060_test_jpg.rf.fbc122d0c77284c92bc01b23c67cef2e.jpg",
+    "question": "Are there any short circuit defects?",
+    "answer": "Yes, there is 1 short defect located at: center-right."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100019_test_jpg.rf.97b8ef9a463b02f146ceabf2155beee2.jpg",
+    "question": "Can you see any unintended connections between traces?",
+    "answer": "Yes, there are 3 short defects located at: top-right, top-right, top-right."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\20085232_test_jpg.rf.6242929291b158e8477161462fb4ea63.jpg",
+    "question": "Can you see any unintended connections between traces?",
+    "answer": "Yes, there are 3 short defects located at: top-left, center-left, center-right."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\77000099_test_jpg.rf.798d525e1ccce4e11361d248987c9ecb.jpg",
+    "question": "Are there any excess copper defects?",
+    "answer": "Yes, there is 1 copper defect located at: top-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\12300153_test_jpg.rf.66315356aacf0aa1eedca3f13a76a451.jpg",
+    "question": "Can you identify any copper residue issues?",
+    "answer": "Yes, there is 1 copper defect located at: center-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\12100155_test_jpg.rf.3718d3079412abf7f57e3f0d4558e105.jpg",
+    "question": "How many quality issues are present?",
+    "answer": "There are 5 defects in total: 2 open, 1 mousebite, 2 spur."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000042_test_jpg.rf.7bea0d7d1d06406041ca2b5f7d4d7343.jpg",
+    "question": "Are there any disconnected copper traces?",
+    "answer": "Yes, there is 1 open defect located at: center-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100086_test_jpg.rf.810170de547d8a870f502c87088d3104.jpg",
+    "question": "Are there any mousebite defects?",
+    "answer": "Yes, there is 1 mousebite defect located at: center-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\50600037_test_jpg.rf.ef6ca1dd3344e393713f4cfd8df0bf1f.jpg",
+    "question": "Are there any remaining copper spots that shouldn't be there?",
+    "answer": "Yes, there is 1 copper defect located at: center-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100060_test_jpg.rf.4b4b070729a04ddde52f41af91b3030b.jpg",
+    "question": "List the defects found on this PCB.",
+    "answer": "This PCB has 10 defects: 2 open defects, 1 mousebite defect, 4 spur defects, 2 copper defects, 1 pin-hole defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100081_test_jpg.rf.d1f495a2cc282a2bec78bec85cb55107.jpg",
+    "question": "Can you see any unintended connections between traces?",
+    "answer": "Yes, there is 1 short defect located at: bottom-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\44000063_test_jpg.rf.4fb97ce9178937948f1794106914a9fb.jpg",
+    "question": "Are there any manufacturing defects on this PCB?",
+    "answer": "This PCB has 10 defects: 2 open defects, 2 short defects, 2 mousebite defects, 2 spur defects, 2 pin-hole defects."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\13000086_test_jpg.rf.8ddfed4c0de837e5c7f997f8a776d3b2.jpg",
+    "question": "Are there any bridging defects on the board?",
+    "answer": "Yes, there is 1 short defect located at: center-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100044_test_jpg.rf.0ef59125af4d97d2a7881896015c2d4e.jpg",
+    "question": "List the defects found on this PCB.",
+    "answer": "This PCB has 5 defects: 1 open defect, 1 short defect, 1 spur defect, 1 copper defect, 1 pin-hole defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100045_test_jpg.rf.fafb4b7151276ebe817ced8fd28a7bcd.jpg",
+    "question": "Are there any spur defects on the traces?",
+    "answer": "Yes, there is 1 spur defect located at: center-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000004_test_jpg.rf.985c0fcab93958edf71924b6c41aa44d.jpg",
+    "question": "Are there any spur defects on the traces?",
+    "answer": "Yes, there is 1 spur defect located at: center-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\20085177_test_jpg.rf.4aa3ead5a231834f43bbcc56d10c2deb.jpg",
+    "question": "How many quality issues are present?",
+    "answer": "There are 5 defects in total: 2 mousebite, 1 spur, 1 copper, 1 pin-hole."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\77000090_test_jpg.rf.e24bba8d34d646c1ac579fa0c267ed32.jpg",
+    "question": "Can you identify broken traces on this PCB?",
+    "answer": "Yes, there is 1 open defect located at: top-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\00041054_test_jpg.rf.f8b3636c02b25ee46241fb972d0964b3.jpg",
+    "question": "How many quality issues are present?",
+    "answer": "There are 7 defects in total: 3 mousebite, 1 short, 2 spur, 1 pin-hole."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000110_test_jpg.rf.81c2219515f6ff4cbbf6ce41ae97fca0.jpg",
+    "question": "Are there any short circuit defects?",
+    "answer": "Yes, there is 1 short defect located at: top-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\20085067_test_jpg.rf.0ac957e460d58af64fb6b2703712a123.jpg",
+    "question": "Are there any spurious copper extensions?",
+    "answer": "Yes, there are 2 spur defects located at: center-center, bottom-right."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\77000082_test_jpg.rf.09533d3e3d3dee9ed54396e14055c9cd.jpg",
+    "question": "Are there any spurious copper extensions?",
+    "answer": "Yes, there is 1 spur defect located at: top-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000069_test_jpg.rf.1537e6f3829ab438a37eaf1192eef671.jpg",
+    "question": "Are there any partial trace etching defects?",
+    "answer": "Yes, there is 1 mousebite defect located at: bottom-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100074_test_jpg.rf.b9a6cd06990ef66af85741cc3a02b134.jpg",
+    "question": "Are there any bridging defects on the board?",
+    "answer": "Yes, there is 1 short defect located at: bottom-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000020_test_jpg.rf.57d25217426d085389c9acc84c0db96e.jpg",
+    "question": "Are there any partial trace etching defects?",
+    "answer": "No mousebite defects are found in this PCB image."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\20085035_test_jpg.rf.edf3325f8b90d342d8471dd70551ab34.jpg",
+    "question": "Are there any manufacturing defects on this PCB?",
+    "answer": "This PCB has 6 defects: 1 open defect, 2 mousebite defects, 1 spur defect, 1 copper defect, 1 pin-hole defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000114_test_jpg.rf.308cab2c282d9c411f3273b281e468c1.jpg",
+    "question": "How many quality issues are present?",
+    "answer": "There are 5 defects in total: 1 open, 1 short, 1 copper, 2 spur."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\77000092_test_jpg.rf.3c79a4d1312c77fef64597636c5c7020.jpg",
+    "question": "Are there any excess copper defects?",
+    "answer": "Yes, there is 1 copper defect located at: bottom-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\77000057_test_jpg.rf.6ca5e3957623083a6bd9e8b77379e0ea.jpg",
+    "question": "Are there any partial trace etching defects?",
+    "answer": "Yes, there are 2 mousebite defects located at: center-center, bottom-right."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100018_test_jpg.rf.da2d61748e68ee51c2e6fe7ea5b027e8.jpg",
+    "question": "Are there any remaining copper spots that shouldn't be there?",
+    "answer": "Yes, there is 1 copper defect located at: bottom-right."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\00041087_test_jpg.rf.59036d5d92f614a09f336ab585d89c3e.jpg",
+    "question": "Are there any manufacturing defects on this PCB?",
+    "answer": "This PCB has 9 defects: 2 open defects, 1 short defect, 3 mousebite defects, 2 copper defects, 1 pin-hole defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\77000101_test_jpg.rf.d2c82eb48bcde8ae51f0fb4dcdedf2a4.jpg",
+    "question": "Are there any bridging defects on the board?",
+    "answer": "Yes, there is 1 short defect located at: center-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100013_test_jpg.rf.2377af890176e498842dc44cea0d929b.jpg",
+    "question": "How many quality issues are present?",
+    "answer": "There are 9 defects in total: 2 open, 2 short, 1 mousebite, 1 spur, 1 copper, 2 pin-hole."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100041_test_jpg.rf.9f14f5a31e68f772355d1a67a8b30a7b.jpg",
+    "question": "Are there any disconnected copper traces?",
+    "answer": "Yes, there is 1 open defect located at: bottom-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\50600012_test_jpg.rf.eaf714f562c70d55343fe2c35438a17f.jpg",
+    "question": "Are there any short circuit defects?",
+    "answer": "Yes, there is 1 short defect located at: top-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000076_test_jpg.rf.d0f51a22e53d4a30fa07dcc0966e3a1f.jpg",
+    "question": "Are there any remaining copper spots that shouldn't be there?",
+    "answer": "Yes, there is 1 copper defect located at: top-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000115_test_jpg.rf.0814af8966f42f0e8aec61eb4febf32d.jpg",
+    "question": "Identify all defects visible in this circuit board.",
+    "answer": "This PCB has 7 defects: 1 open defect, 2 mousebite defects, 1 spur defect, 2 copper defects, 1 pin-hole defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000023_test_jpg.rf.c6e29c56562ab30c0783a389c91a1f90.jpg",
+    "question": "Are there any remaining copper spots that shouldn't be there?",
+    "answer": "Yes, there is 1 copper defect located at: bottom-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\44000036_test_jpg.rf.fbd60d28b11a5dedc639ef73cfdac69a.jpg",
+    "question": "Are there any open circuit defects?",
+    "answer": "Yes, there is 1 open defect located at: center-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000016_test_jpg.rf.c6ecb646ac35e438e8156cfb2bc1a883.jpg",
+    "question": "Are there any manufacturing defects on this PCB?",
+    "answer": "This PCB has 8 defects: 1 open defect, 2 short defects, 2 mousebite defects, 1 spur defect, 1 copper defect, 1 pin-hole defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\13000190_test_jpg.rf.0127a4e187b4bfab82a5196307acdcb0.jpg",
+    "question": "Are there any voids or pinholes in the traces?",
+    "answer": "Yes, there is 1 pin-hole defect located at: center-right."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000084_test_jpg.rf.23850c18bccd6b148b88c21dd72ce0ab.jpg",
+    "question": "Are there any manufacturing defects on this PCB?",
+    "answer": "This PCB has 5 defects: 1 open defect, 1 short defect, 1 mousebite defect, 1 spur defect, 1 pin-hole defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\13000126_test_jpg.rf.49717c119eaca452b29feaba127c5a09.jpg",
+    "question": "Can you see any unintended connections between traces?",
+    "answer": "Yes, there is 1 short defect located at: center-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000111_test_jpg.rf.3ab5ecc050a798400382c7ef9e320856.jpg",
+    "question": "How many defects are in this PCB image?",
+    "answer": "There are 3 defects in total: 1 open, 1 spur, 1 pin-hole."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100059_test_jpg.rf.8ddd1d210a767648a1e2f99655e1bca2.jpg",
+    "question": "Are there any remaining copper spots that shouldn't be there?",
+    "answer": "Yes, there is 1 copper defect located at: center-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100078_test_jpg.rf.0d82594c9f7ec0cab09e6dc760b2e48b.jpg",
+    "question": "Are there any mousebite defects?",
+    "answer": "Yes, there is 1 mousebite defect located at: bottom-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100051_test_jpg.rf.d4150e89b4aa22e064802a7aeeb2674f.jpg",
+    "question": "Are there any bridging defects on the board?",
+    "answer": "Yes, there are 2 short defects located at: center-left, bottom-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\90100072_test_jpg.rf.605f72bf8ab04a0279f79190b512ea17.jpg",
+    "question": "List the defects found on this PCB.",
+    "answer": "This PCB has 4 defects: 1 open defect, 1 short defect, 1 spur defect, 1 copper defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\44000068_test_jpg.rf.a806065368bd3eadc36e294cb2808840.jpg",
+    "question": "Are there any manufacturing defects on this PCB?",
+    "answer": "This PCB has 6 defects: 1 open defect, 1 short defect, 1 mousebite defect, 1 spur defect, 1 copper defect, 1 pin-hole defect."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000006_test_jpg.rf.9abfcf887b9b5ceff7d25a51d847acf7.jpg",
+    "question": "How many quality issues are present?",
+    "answer": "There are 6 defects in total: 1 open, 1 mousebite, 1 copper, 1 pin-hole, 1 spur, 1 short."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\20085228_test_jpg.rf.be299c234307713e8e23d31752e9025c.jpg",
+    "question": "Can you identify any copper residue issues?",
+    "answer": "Yes, there is 1 copper defect located at: top-left."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000010_test_jpg.rf.f5acf69815bb2dd8f9fd8498b27f5128.jpg",
+    "question": "Are there any short circuit defects?",
+    "answer": "Yes, there is 1 short defect located at: center-center."
+  },
+  {
+    "image": "C:/Users/Wizard/Documents/quality_inspection/data/valid\\images\\92000009_test_jpg.rf.d7e683a18eee16fdd4d3f81dfc75f90d.jpg",
+    "question": "Are there any pin-hole defects in the copper?",
+    "answer": "Yes, there is 1 pin-hole defect located at: center-center."
+  }
+]

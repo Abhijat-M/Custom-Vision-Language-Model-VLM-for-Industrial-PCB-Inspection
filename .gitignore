@@ -5,8 +5,8 @@ checkpoints/
 *.onnx
 *.safetensors
 
-# Data
-data/
+# Data (tracked via Git LFS)
+# data/
 
 # Python
 __pycache__/
